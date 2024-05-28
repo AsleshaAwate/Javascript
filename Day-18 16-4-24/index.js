@@ -56,7 +56,7 @@
 
 // cupboard clothing = shirt
 
-var myStudentName = "ali" 
+var myStudentName = "Aslesha" 
 var myStudentAge = 20
 var myStudentCompletedAssignment = true
 

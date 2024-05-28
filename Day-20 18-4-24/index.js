@@ -67,7 +67,7 @@ function Greeting() {
   var mynumber;
   
   
-  mynumber = 10;
-  console.log(mynumber);
+  // mynumber = 10;
+  // console.log(mynumber);
   
-  let mynumber;
+  // let mynumber;

@@ -78,10 +78,10 @@ console.log(3 < 2 || 3 < 1 || 2 < 1); // false || false || false  -> true, false
 // confrimPassword
 
 
-if(number && name && email ){
-  "All vvalues are exist"
-}
+// if(number && name && email ){
+//   "All vvalues are exist"
+// }
 
-if(!number || !name || !email ){
-  "All vvalues are required."
-}
+// if(!number || !name || !email ){
+//   "All vvalues are required."
+// }

@@ -55,6 +55,5 @@ kuchbhi = "hello" //  re assign
 console.log(kuchbhi)
 
 const myNumber = 10;  // declare
-// const myNumber = 20; // re declare
-// myNumber = 20; //  re assign 
-console.log(myNumber)
+
+ console.log(myNumber)

@@ -182,12 +182,12 @@ function addition() {
   
   // 120
   
-  Whats the addition of number from 23 to 89 with gap of 2 and number must be odd.
+  //Whats the addition of number from 23 to 89 with gap of 2 and number must be odd.
   
-  1  + 2 = 3
-   3  + 3 = 6
-  6 + 4 = 10 
-  10 + 5 =15
+  // 1  + 2 = 3
+  //  3  + 3 = 6
+  // 6 + 4 = 10 
+  // 10 + 5 =15
   
   
   var finalCount = 0;

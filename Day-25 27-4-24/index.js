@@ -11,13 +11,13 @@ for (var i = 1; i <= 4; i++) {
 console.log(count);
 // 10;
 
-1st iteration :
-i = 1
+// // 1st iteration :
+ i = 1
 i <= 4 ; 1 <=  4 ; true
-0 ; count +=  i;  count += 1 => 1
-i++; 1 -> 2
+0 ; count +=  i;  count += 1 //=> 1
+ i++; //1 -> 2
 
-cd filename ,  cd .. - change directory (folder)
+//cd filename ,  cd .. - change directory (folder)
 
 // Datatypes
 // String
