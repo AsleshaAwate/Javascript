@@ -57,6 +57,6 @@
 // array[2] = 2;
 // console.log(array);
 
-var myObject = { name: "Awdiz" };
+var myObject = { name: "Aslesha" };
 myObject["Age"] = 10;
 console.log(myObject);

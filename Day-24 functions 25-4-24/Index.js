@@ -99,7 +99,7 @@ function addition() {
   
   // [data, data, data];
   
-  var students = ["Virat", "Rohit", "Rahul"];
+  var students = ["Sneha", "Ashu", "Gau"];
   console.log(students, "students");
   console.log(students.length); // 3
   console.log(students[0]);

@@ -45,7 +45,7 @@ switch (fruit) {
     console.log("The fruit is Banana.");
     break;
   default:
-    console.log("Fruit not exist.");
+    console.log("Fruit does not exist.");
 }
 
 // && || Operators

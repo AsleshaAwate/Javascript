@@ -21,7 +21,7 @@ console.log(typeof(`false`))
 console.log(typeof('543'))
 
 
-var myName = "Awdiz";
+var myName = "Aslesha";
 console.log(myName , typeof(myName));
 
 
@@ -49,10 +49,10 @@ console.log(myClass)
 // 2. Scope 
 // 3. Hoisting 
 
-let kuchbhi = "Hii"; //  declare
-kuchbhi = "hello" //  re assign
-// let kuchbhi = "Hello" // re - declare
-console.log(kuchbhi)
+let abcd = "Hii"; 
+abcd = "Hey There!" 
+
+console.log(abcd)
 
 const myNumber = 10;  // declare
 

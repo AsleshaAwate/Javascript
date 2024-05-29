@@ -11,10 +11,10 @@ function BinarySearch(array, target) {
     if (array[midIndex] === target) {
       return midIndex;
     } else if (array[midIndex] < target) {
-      console.log(array[midIndex], target, "element is lesser than target");
+      console.log(array[midIndex], target, "element is lesser than TARGET");
       left = midIndex + 1;
     } else if (array[midIndex] > target) {
-      console.log(array[midIndex], target, "element is greater than target");
+      console.log(array[midIndex], target, "element is greater than TARGET");
       right = midIndex - 1;
     }
   }

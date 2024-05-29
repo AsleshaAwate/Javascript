@@ -26,15 +26,18 @@
 //     statement 2
 // }
 
+
+
+
 var age = 10;
 console.log(age > 18);
 
 if (age > 18) {
   console.log("Your age is valid for Driving License.");
 } else if (age == 18) {
-  console.log("you are allowed for LL.");
+  console.log("you are allowed for License.");
 } else if (age == 10) {
-  console.log("Your age is 10.");
+  console.log("Your age is 9.");
 } else {
   console.log("Your age is Not valid for Driving License.");
 }

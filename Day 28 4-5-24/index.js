@@ -9,9 +9,9 @@
 // var myObject = { key : value , key2 : value2 , key3 : value3}
 
 var InsituteDetails = {
-    name: "Awdiz",
+    name: "Aslesha",
     age: 10,
-    location: "Washi",
+    location: "vashi",
     isOpen: true,
     courses: [
       "Full stack Development",
