@@ -1,0 +1,767 @@
+*{
+    font-family:Montserrat, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parentdiv{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 5000px;
+    margin: auto;
+}
+#Navbar{
+    /* border: 2px solid black; */
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Navbar1{
+    /* border: 2px solid black; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    justify-content: space-between;
+}
+
+#Navbar1 img{
+    height: 60%;
+}
+
+#Navbar2{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    /* border: 2px solid red; */
+    height: 68%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img{
+    height: 65%;
+}
+
+#socialmedia{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    width: 10%;
+}
+
+#menu, #fti{
+    font-size: 25px;
+}
+
+#fti{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 36%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#twitter{
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(85,172,238);
+    color: white;
+}
+
+#facebook{
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59,89,152);
+    color: white;
+}
+
+#instagram{
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(207,89,180);
+    color: white;
+}
+
+.fa-facebook{
+    color: rgb(59,89,152);
+}
+
+#background{
+    width: 100%;
+    height: 800px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* #interior{
+    width: 70%;
+    border: 2px solid black;
+    position: relative;
+} */
+
+#backbox{
+    /* border: 2px solid red; */
+    background-color: rgb(180,189,155);
+    width: 36%;
+    height: 58%;
+    position: absolute;
+    top: 175px;
+    left: 760px;
+}
+
+#frontbox{
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 40%;
+    height: 43%;
+    position: absolute;
+    top: 235px;
+    left: 640px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 10px 10px 20px rgb(132,139,115);
+}
+
+#frontbox > :nth-child(1){
+    font-size: 24px;
+}
+
+#frontbox > :nth-child(3){
+    font-size: 60px;
+    font-weight: 100;
+    font-family: Montserrat, sans-serif;
+}
+
+#frontbox > :nth-child(5){
+    font-size: 24px;
+}
+
+#cross{
+    height: 40%;
+}
+
+#divices{
+    width: 15%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#spaceplannig{
+    width: 87%;
+    height: 550px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#firstdiv{
+    /* border: 2px solid red; */
+    height: 550px;
+    width: 42%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#firstdiv1{
+    height: 550px;
+    width: 100%;
+}
+
+#firstdiv1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#seconddiv{
+    /* border: 2px solid yellow; */
+    /* height: 850px; */
+    width: 31%;
+    height: 450px;
+    background-image: url(https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/f82f15087c19565f99555fe5/texture-min.png);
+    position: relative;
+}
+
+#circle{
+    /* border: 2px solid purple; */
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d55ac6f33a275ea2b9ba06e9/g.jpg);
+    background-size: cover;
+    top: 50px;
+    right: 108px;
+}
+
+#spaceplannigtext{
+    /* border: 2px solid red; */
+    width: 88%;
+    height: 316px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#interiordesign{
+    /* border: 2px solid black; */
+    width: 38%;
+    height: 316px;
+    padding-left: 25px;
+}
+
+#quisscom{
+    /* border: 2px solid black; */
+    width: 42%;
+    height: 316px;
+    padding-top: 20px;
+}
+
+#interiordesigntext1{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.interiordesigntext2{
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(66,66,66);
+}
+
+#interiordesigndiv2{
+    margin-top: 10px;
+    letter-spacing: 0.25px;
+}
+
+#interiordesigndiv3{
+    margin-top: 30px;
+}
+
+#learn{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 54px;
+    width: 200px;
+    border-color: rgb(162,174,133);
+    background-color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#learn:hover{
+    color: white;
+    background-color: rgb(106,124,62);
+}
+
+.quisscomtext{
+    font-size: 20px;
+    line-height: 1.8;
+    word-wrap: break-word;
+    text-align: left;
+    letter-spacing: 0.75px;
+    color: rgb(66,66,66);
+}
+
+.envision{
+    /* border: 2px solid black; */
+    width: 77%;
+    margin: auto;
+    margin-top: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstenvision{
+    /* border: 2px solid red; */
+    background-color: rgb(106,124,62);
+    width: 16%;
+    height: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 1000;
+    color: white;
+}
+
+.firstenvisiontext{
+    /* border: 2px solid red; */
+    background-color: green;
+    width: 78%;
+    height: 188px;
+    background-color: white;
+}
+
+.firstenvisiontext p{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#envisionimage{
+    /* border: 2px solid red; */
+    width: 77%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#envisionimage1{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/5646.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transition: all 1s; */
+}
+
+/* #envisionimage1 :hover{
+    transform: scale(1.2);
+} */
+
+#envisionimage2{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-cup-of-couple-6633450.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#envisionimage3{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/56456.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#latest{
+    width: 77%;
+    height: 950px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+#latestproject{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#latestproject > :nth-child(1){
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#latestproject > :nth-child(2){
+    font-size: 18px;
+    line-height: 3;
+}
+
+#latestprojectimages{
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#latestdiv1{
+    /* border: 2px solid blue; */
+    width: 48.7%;
+    height: 715px;
+}
+
+#latestdiv2{
+    /* border: 2px solid blue; */
+    width: 48.7%;
+    height: 715px;
+}
+
+#latestprojectimage1{
+    width: 45%;
+    height: 230px;
+    float: right;
+    margin-right: 16px;
+}
+
+#latestprojectimage1 img{
+    width: 270px;
+    height: 230px;
+    object-fit: cover;
+}
+
+#latestprojectimage2{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 460px;
+    float: right;
+    margin-top: 22px;
+}
+
+#latestprojectimage2 img{
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+#latestprojectimage3{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 460px;
+    float: right;
+}
+
+#latestprojectimage3 img{
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+#latestprojectimage4{
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 230px;
+    float: left;
+    margin-right: 16px;
+    margin-top: 22px;
+}
+
+#latestprojectimage4 img{
+    width: 270px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.envision2{
+    /* border: 2px solid black; */
+    width: 77%;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#combineimage{
+    /* border: 2px solid red; */
+    width: 77%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#combineimage1{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transition: all 1s; */
+}
+
+/* #combineimage1 :hover{
+    transform: scale(1.2);
+} */
+
+#combineimage2{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#combineimage3{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contactus{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 650px;
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: Roboto, sans-serif;
+}
+
+#contactgreenbox{
+    /* border: 2px solid black; */
+    width: 100%;
+    height:230px;
+    background-color: rgb(202,209,182);
+    margin-top: 150px;
+}
+
+#contactimagebox{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 33%;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 294px;
+}
+
+#contactname{
+    /* border: 2px solid yellow; */
+    height: 75%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    left: 290px;
+    top: 70px;
+    box-shadow: 10px 10px 10px rgb(201,201,201);
+}
+
+#maincontact{
+    /* border: 2px solid purple; */
+    margin: 30px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#maincontact p{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#maincontact input{
+    width: 100%;
+    height: 10%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#maincontact button{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(107,126,60);
+    font-weight: 700;
+    color: white;
+    border: hidden;
+    outline: hidden;
+}
+
+#maincontact button:hover{
+    background-color: black;
+}
+
+#maincontact textarea{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+}
+
+#imagefromfreepik{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagefromfreepik p{
+    font-size: 18px;
+}
+
+
+#footer{
+    /* border: 2px solid red; */
+    background-color: rgb(51,51,51);
+    width: 100%;
+    height: 380px;
+}
+
+#mainfoot{
+    width: 100%;
+    height: 80%;
+    /* border:  2px solid yellow; */
+    display: flex;
+}
+
+#copyright{
+    /* border:  2px solid gold; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#copyright p{
+    color:white;
+    font-size: 18px;
+    line-height: 2;
+}
+
+#socialfooter{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 180px;
+}
+
+#socialfooter i{
+    font-size: 15px;
+}
+
+#socialfooter .fa-facebook-f{
+    color: white;
+}
+
+#socialfooter .fa-twitter{
+    color: white;
+}
+
+#socialfooter .fa-instagram{
+    color: white;
+}
+
+#socialfooter .fa-linkedin-in{
+    color: white;
+}
+
+#homeabout{
+    /* border:  2px solid gold; */
+    width: 18%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#homeabout a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8;
+}
+
+#terms{
+    /* border:  2px solid gold; */
+    width: 18%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#terms a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8;
+}
+
+#privacy{
+    /* border:  2px solid gold; */
+    width: 24%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#privacy a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8;
+}
+
+#createdwith{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+#createdwith a{
+    color: rgb(183,214,199);
+}
+
+#nicepagetext{
+    color: rgb(213,226,198);
+}
